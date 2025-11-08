@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # SynapseMind - AI-Powered Second Brain
 
 A full-stack web application that helps you save, organize, and retrieve all kinds of information using AI. Built with React, Node.js, MongoDB, and Claude AI.
@@ -238,21 +238,8 @@ Open your browser and go to: http://localhost:5173
 
 ## MongoDB Setup
 
-### Get MongoDB Atlas Connection String
+### i have kept my mongodb connection in env example file in backend folder pls check:)
 
-1. Go to https://www.mongodb.com/cloud/atlas
-2. Create a free account
-3. Create a new cluster (free M0 tier)
-4. Click "Connect" → "Connect your application"
-5. Copy the connection string
-6. Replace `<password>` with your database password
-7. Replace `myFirstDatabase` with `synapsemind`
-8. Paste in your `.env` file
-
-Example:
-```
-mongodb+srv://username:password@cluster0.xxxxx.mongodb.net/synapsemind?retryWrites=true&w=majority
-```
 
 ## Claude API Key
 
@@ -435,5 +422,27 @@ QR / Sync	qrcode, socket.io
 Deployment	Vercel (Frontend), Render / Railway (Backend)
 
 
+images:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a9981c07-a900-4458-8abd-a32452629313" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/aa871467-1a9f-4e08-9e04-484596489510" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/87ab1380-b1fe-4e22-9599-fa7e94f4671d" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9532e6f8-0546-4129-a6c6-ea486ad6675f" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/444656ca-eb3c-444f-a65f-bbe25853ce26" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/48d88687-93e3-4ee4-8859-1b8bbebca5c8" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e8631078-4503-44e0-91b4-ef3c00d2fca9" />
 
->>>>>>> f471135554b7eef0b0ffe6afa53b836b59bef34c
+
+
+
+<img width="536" height="325" alt="image" src="https://github.com/user-attachments/assets/48962588-ebed-48f6-bd96-08f6f9a9c36c" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4f8afbf7-a251-4b8f-adf7-e57bc6d836f8" />
+
+
+
+
+
+
+
+
+
+
