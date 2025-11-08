@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SynapseMind Clipper</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Login Screen -->
+    <div id="login-screen">
+      <div class="header">
+        <h1>🧠 SynapseMind</h1>
+        <p class="subtitle">Clipper Extension</p>
+      </div>
+
+      <form id="login-form">
+        <div class="input-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="your@email.com" required>
+        </div>
+
+        <div class="input-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="••••••••" required>
+        </div>
+
+        <button type="submit" class="btn-primary" id="login-btn">
+          <span id="login-text">Login</span>
+          <span id="login-loader" class="loader" style="display: none;"></span>
+        </button>
+
+        <p class="error-msg" id="error-msg"></p>
+      </form>
+
+      <div class="footer">
+        <p>Don't have an account?</p>
+        <a href="http://localhost:5173/signup" target="_blank">Sign up</a>
+      </div>
+    </div>
+
+    <!-- Dashboard Screen (after login) -->
+    <div id="dashboard-screen" style="display: none;">
+      <div class="header">
+        <h1>🧠 SynapseMind</h1>
+        <p class="subtitle">Logged in as <span id="user-name"></span></p>
+      </div>
+
+      <div class="stats">
+        <div class="stat-card">
+          <div class="stat-value" id="total-saves">0</div>
+          <div class="stat-label">Total Saves</div>
+        </div>
+      </div>
+
+      <div class="instructions">
+        <h3>How to use:</h3>
+        <ul>
+          <li>📝 Select text → Right-click → Save to SynapseMind</li>
+          <li>🖼️ Right-click image → Save Image to SynapseMind</li>
+          <li>🔗 Right-click link → Save Link to SynapseMind</li>
+          <li>📄 Right-click anywhere → Save Page to SynapseMind</li>
+          <li>⌨️ Or use <strong>Ctrl+Shift+S</strong> for quick save</li>
+        </ul>
+      </div>
+
+      <div class="actions">
+        <a href="http://localhost:5173/dashboard" target="_blank" class="btn-secondary">
+          Open Dashboard
+        </a>
+        <button id="logout-btn" class="btn-outline">Logout</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

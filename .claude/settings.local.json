@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(taskkill:*)",
+      "Bash(cmd //c \"taskkill //IM node.exe //F\")",
+      "Bash(netstat:*)",
+      "Bash(powershell.exe -Command \"Stop-Process -Id 109336 -Force\")",
+      "Bash(powershell.exe -Command \"Get-Process node -ErrorAction SilentlyContinue | Stop-Process -Force\")",
+      "Bash(node:*)",
+      "Bash(curl -s -X POST \"https://api.anthropic.com/v1/messages\" -H \"x-api-key: sk-RT29JkgEhWyLj7iKiRtJZw\" -H \"anthropic-version: 2023-06-01\" -H \"content-type: application/json\" -d \"{\"\"model\"\":\"\"claude-3-5-sonnet-20241022\"\",\"\"max_tokens\"\":10,\"\"messages\"\":[{\"\"role\"\":\"\"user\"\",\"\"content\"\":\"\"test\"\"}]}\")",
+      "Bash(curl:*)",
+      "Bash(set)",
+      "Bash(findstr:*)",
+      "Bash(tasklist:*)",
+      "Bash(npm install:*)",
+      "Bash(start create-icons.html:*)",
+      "Bash(dir:*)",
+      "Bash(del \"C:\\Users\\vansh\\Favorites\\Appointy Task Round\\backend\\drop-text-index.js\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
