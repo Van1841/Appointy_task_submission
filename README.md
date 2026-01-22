@@ -56,7 +56,7 @@ A full-stack web application that helps you save, organize, and retrieve all kin
 
 ### Step 1: Clone or Navigate to Project
 ```bash
-cd "C:\Users\vansh\Favorites\Appointy Task Round"
+cd "C:\Users\vansh\Favorites\SynapseMind
 ```
 
 ### Step 2: Backend Setup
